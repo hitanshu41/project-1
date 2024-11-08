@@ -1,0 +1,30 @@
+/* prevents (*) browser from adding margins*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    padding: 20px;
+    background-color: aqua;
+    box-shadow: 0 0 10px green;
+}
+.logo{
+    max-width: 15%;
+    display: flex
+}
+ul{
+    display: flex;
+
+}
+li{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    margin-left: 50px;
+    background-color: lightskyblue;
+    
+}
+.navigation-bar a{
+    text-decoration: none;
+}
